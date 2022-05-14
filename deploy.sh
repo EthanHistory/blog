@@ -21,7 +21,7 @@ while getopts "t:m:" arg; do
 done
 
 # Default Theme
-if [ -z ${THEME} ]; then THEME=eureka; fi
+if [ -z ${THEME} ]; then THEME=somrat; fi
 if [ -z ${MESSAGE} ]; then MESSAGE="rebuilding site `date`"; fi
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
