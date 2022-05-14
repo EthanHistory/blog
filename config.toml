@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://EthanHistory.github.io.git/"
+baseURL = "http://EthanHistory.github.io.git/"
 title = "Inseong | Hugo Portfolio Template"
 theme = "somrat"
 # post pagination
