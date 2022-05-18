@@ -36,7 +36,7 @@ cd public
 git add .
 git commit -m "${MESSAGE}"
 # Push source and build repos.
-git push origin master
+git push origin master --force
 
 # Come Back up to the Project Root
 cd ..
@@ -44,4 +44,4 @@ cd ..
 # blog 저장소 Commit & Push
 git add .
 git commit -m "${MESSAGE}"
-git push origin master
+git push origin master --force
