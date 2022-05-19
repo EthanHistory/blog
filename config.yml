@@ -72,10 +72,10 @@ params:
     imageWidth: 200 # custom size
     imageHeight: 200 # custom size
     buttons:
-      - name: Archives
-        url: "/archives"
-      - name: Github
-        url: "https://github.com/"
+      - name: Archive
+        url: "/archive"
+      - name: Posts
+        url: "/posts"
 
   # home-info mode
   homeInfoParams:
@@ -118,18 +118,21 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - name: Archive
-      url: archives
-      weight: 5
+    - name: Posts
+      url: posts/
+      weight: 1
     - name: Search
       url: search/
-      weight: 10
+      weight: 2
+    - name: Archive
+      url: archives
+      weight: 3
     - name: Tags
       url: tags/
-      weight: 10
+      weight: 4
     - name: Categories
       url: categories/
-      weight: 10
+      weight: 5
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
