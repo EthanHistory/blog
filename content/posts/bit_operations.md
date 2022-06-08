@@ -1,5 +1,5 @@
 ---
-title: "Bit operations"
+title: "Bit Operations"
 date: 2022-06-07T11:45:19-07:00
 draft: False
 tags: ["python"]

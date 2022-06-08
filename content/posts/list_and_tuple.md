@@ -1,5 +1,5 @@
 ---
-title: "List_and_tuple"
+title: "List And Tuple"
 date: 2022-06-07T16:59:42-07:00
 draft: False
 tags: ["Python"]
