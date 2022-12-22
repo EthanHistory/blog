@@ -3,6 +3,7 @@ title: "RNN_cheatsheet"
 date: 2022-12-20T00:25:58-08:00
 draft: false
 math: true
+tags: ["DeepLearning"]
 ---
 ![](/rnn_structure.png)
 *[RNN structure (left) compact representation of RNN (right) unfolding version](https://www.researchgate.net/figure/Recurrent-Neural-Network-Structure-The-left-is-the-typical-RNN-structure-The-right-part_fig3_311805526)*  
