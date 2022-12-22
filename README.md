@@ -10,3 +10,14 @@ type of theta (fixed vs increasing) Parametric vs Non-parametric
 type of objective (P(x,y) vs P(y | x)) Generative vs Discrimitive
 
 type of y (categorical vs continuous) Classification vs Regression
+
+Garbage collection
+definition
+what
+why
+how
+example
+
+if has another concept
+advantage
+disadvantage
