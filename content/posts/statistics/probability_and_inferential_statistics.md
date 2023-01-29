@@ -1,7 +1,7 @@
 ---
 title: "Probability_and_inferential_statistics"
 date: 2023-01-17T23:14:34Z
-draft: true
+draft: false
 math: true
 ---
 
