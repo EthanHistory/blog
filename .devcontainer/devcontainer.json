@@ -1,0 +1,12 @@
+{
+	"name": "Python 3",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "."
+	},
+
+	"runArgs": ["--network", "host"],
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+	"workspaceFolder": "/workspace"
+	// "postCreateCommand": "pip3 install --user -r requirements.txt"
+}

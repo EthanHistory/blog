@@ -1,3 +1,9 @@
+git clone --recurse-submodules ...
+
+# hugo new posts/post_name.md
+# hugo server -D [--poll 700ms]
+# poll option is for the time when you develop the blog in docker container.
+
 why you can apply dp in the matrix problem, but not rotten orange
 
 Classify machine learning algorithms with tag
