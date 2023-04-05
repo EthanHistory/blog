@@ -13,29 +13,3 @@ When you encounter an error in your code, it may not necessarily be caused by th
 Writing code is not just about creating features, but also about optimizing them to run efficiently. In production settings, this becomes even more significant. By understanding computer architecture, you can identify potential bottlenecks in your code and optimize them for better performance. The deeper your knowledge of computer architecture, the more room you have for optimization.
 
 Overall, having an understanding of computer architecture can make you a more effective and efficient software engineer, both in terms of debugging and performance optimization."
-
-
-basic component: 
-폰노이만 구조?
-- data
-- instruction
-
-basic parts: 
-- cpu
-    - ALU
-    - Control Unit
-        - interpret instruction
-        - control signal
-    - Register
-- memory (RAM)
-- hhd
-- I/O
-
-
-OS
-- system resource (devices)
--  OS is a program that manages other programs and resources by using system calls
-    - CPU : which process shuold be executed for how much?
-
-- reside in special area in memory.
-How my code processed?
