@@ -3,6 +3,7 @@ title: "2D Projective Transformations"
 date: 2022-12-29T19:44:33Z
 draft: false
 math: true
+tags: ["Computer Vision"]
 ---
 
 ![](/2d_projective_transformations.png)
