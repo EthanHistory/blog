@@ -1,7 +1,6 @@
 ---
-title: "Linear Algebra"
+title: "linear_algebra"
 date: 2023-01-30T05:57:36Z
-draft: true
 math: true
 tags: ["Math"]
 ---

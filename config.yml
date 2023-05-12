@@ -116,6 +116,10 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+  custom_css: ["css/custom.css"]
+  custom_js: ["js/custom.js"]
+  math: true
 menu:
   main:
     - name: Posts
