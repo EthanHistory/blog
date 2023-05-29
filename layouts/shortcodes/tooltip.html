@@ -16,14 +16,18 @@ href="https://unpkg.com/tippy.js@6/animations/scale.css"
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js"></script>
 {{ $pageName := index .Params 0 }}
+{{ $linkString := index .Params 1 }}
 {{ $pageObj := .Site.GetPage $pageName }}
-<a href="{{ $pageObj.RelPermalink }}" id="pageLink">{{ $pageObj.Title }}</a>
+<a href="{{ $pageObj.RelPermalink }}" class="tippy_tooltip_href" 
+data-tippy-content='<h4> {{ $pageObj.Title }} </h4> {{ if $pageObj.Params.cover.image }} <img src={{ $pageObj.Params.cover.image }} alt="My Image" width="100" height="80"> {{ end }} </header> <div class="entry-content"> <p>{{ $pageObj.Summary }}{{ if $pageObj.Truncated }}...{{ end }}</p> </div>'> {{ $linkString }} </a>
 <script>
-    tippy('#pageLink', {
-        content: ' <h4> {{ $pageObj.Title }} </h4> <img src={{ $pageObj.Params.cover.image }} alt="My Image" width="100" height="80"> </header> <div class="entry-content"> <p>{{ $pageObj.Summary }}{{ if $pageObj.Truncated }}...{{ end }}</p> </div> ',
+    tippy('.tippy_tooltip_href', {
+        content: 'Loading...',
         animation: 'scale',
         allowHTML: true,
         hideOnClick: false,
+        maxWidth: 500,
+        maxHeight: 'none',
         onMount: (instance) => {
         renderMathInElement(instance.popper, {
         delimiters: [
