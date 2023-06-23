@@ -47,7 +47,7 @@ p(x)=\begin{cases}
 \end{cases}
 $$
 
-According to the binomial expansion theorem, One of the properties holds.
+According to the binomial expansion theorem, One of the properties, sum of probability of all outcomes equals to one, holds.
 $$
 \sum_{x=0}^n p(x) = \sum_{x=0}^n \binom{n}{x}p^x (1-p)^{n-x} = 
 $$
