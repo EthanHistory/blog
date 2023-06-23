@@ -1,7 +1,7 @@
 ---
 title: "Expectation of continuous random variable"
 date: 2023-06-23T13:14:32+09:00
-draft: true
+draft: false
 tags: ["statistics-ch6"]
 ---
 

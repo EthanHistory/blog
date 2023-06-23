@@ -1,7 +1,7 @@
 ---
 title: "Density function of function"
 date: 2023-06-22T14:43:56+09:00
-draft: true
+draft: false
 tags: ["statistics-ch6"]
 ---
 

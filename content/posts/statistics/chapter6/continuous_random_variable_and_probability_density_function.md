@@ -1,7 +1,7 @@
 ---
 title: "Continuous random variable and probability density function"
 date: 2023-06-22T13:14:39+09:00
-draft: true
+draft: false
 tags: ["statistics-ch6"]
 ---
 
